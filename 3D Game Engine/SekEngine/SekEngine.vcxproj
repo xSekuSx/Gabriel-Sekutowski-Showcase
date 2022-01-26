@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{720B2376-839D-46B4-8701-0C1BF5B09460}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SekEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\bin\$(Configuration)\</OutDir>
+    <IncludePath>.\Include\LUA;.\Include\LUA\include;.\Include\bullet3-3.17\src;.\Include\irrlicht-1.8.4\include;.\Include\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\include;.\Include\json-develop\include;.\include\AudioFile;.\Include\OpenAL\include;.\Include\IrrIMGUI\lib_includes;.\Include\IrrIMGUI\lib_source;.\Include\enet-1.3.13\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\Include\bullet3-3.17\src;.\Include\bullet3-3.17\lib;.\Include\LUA;.\Include\irrlicht-1.8.4\lib\Win64-visualStudio;.\Include\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\lib;.\Include\OpenAL\bin;.\Include\enet-1.3.13;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\bin\$(Configuration)\</OutDir>
+    <IncludePath>.\Include\LUA;.\Include\LUA\include;.\Include\bullet3-3.17\src;$(IncludePath)</IncludePath>
+    <LibraryPath>.\Include\bullet3-3.17\src;.\Include\bullet3-3.17\lib;.\Include\LUA;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SFML_STATIC;_DEBUG;_CONSOLE;BT_USE_DOUBLE_PRECISION;_IRRIMGUI_STATIC_LIB_;_IRRIMGUI_NATIVE_OPENGL_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\src;.\src\Events;.\src\Vectors;.\src\Scripts;.\src\Systems;.\src\GameObjects;.\src\Systems\Graphics;.\Include\IrrIMGUI\IrrIMGUI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lua53.lib;BulletCollision_vs2010_x64_debug.lib;BulletDynamics_vs2010_x64_debug.lib;LinearMath_vs2010_x64_debug.lib;Irrlicht.lib;sfml-window.lib;sfml-system.lib;OpenAL32.lib;opengl32.lib;winmm.lib;ws2_32.lib;enet64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\Include\bullet3-3.17\bin;.\Include\Bullet_libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\Include\glfw-3.3.4.bin.WIN64\include;.\src\Systems</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;glfw3dll.lib;lua53.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\Include\glfw-3.3.4.bin.WIN64\lib-vc2019</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Systems\Scripting.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_includes\IMGUI\imgui.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_includes\IMGUI\imgui_demo.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_includes\IMGUI\imgui_draw.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CBasicMemoryLeakDetection.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CChannelBuffer.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CCharFifo.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CGUITexture.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CIMGUIEventReceiver.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CIMGUIHandle.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CIrrlichtIMGUIDriver.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\COpenGLIMGUIDriver.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\IIMGUIDriver.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\IMGUIHelper.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\IReferenceCounter.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\IrrIMGUIInject.cpp" />
+    <ClCompile Include="Include\IrrIMGUI\lib_source\IrrIMGUI\UnitTest.cpp" />
+    <ClCompile Include="src\Systems\Networking.cpp" />
+    <ClCompile Include="src\GameObjects\ModelNode.cpp" />
+    <ClCompile Include="src\Systems\GuiSubSystem.cpp" />
+    <ClCompile Include="src\GameObjects\Player.cpp" />
+    <ClCompile Include="src\GameObjects\SoundAgent.cpp" />
+    <ClCompile Include="src\Systems\SoundSystem.cpp" />
+    <ClCompile Include="src\Vectors\Smatrix.cpp" />
+    <ClCompile Include="src\GameObjects\SekRigidBody.cpp" />
+    <ClCompile Include="src\GameObjects\Camera.cpp" />
+    <ClCompile Include="src\SekEngine.cpp" />
+    <ClCompile Include="src\Systems\InputSystem.cpp" />
+    <ClCompile Include="src\Events\EventPress.cpp" />
+    <ClCompile Include="src\GameObjects\Gameobject.cpp" />
+    <ClCompile Include="src\Events\EventHandler.cpp" />
+    <ClCompile Include="src\Events\Event.cpp" />
+    <ClCompile Include="src\Systems\GraphicsSystem.cpp" />
+    <ClCompile Include="src\Systems\Parsing.cpp" />
+    <ClCompile Include="src\Systems\PhysicsSystem.cpp" />
+    <ClCompile Include="src\Systems\SubSystem.cpp" />
+    <ClCompile Include="src\Vectors\Svec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IMGUI\imconfig.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IMGUI\imgui.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IMGUI\imgui_internal.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IMGUI\stb_rect_pack.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IMGUI\stb_textedit.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IMGUI\stb_truetype.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\CCharFifo.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\CIMGUIEventReceiver.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\CIMGUIEventStorage.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IGUITexture.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IIMGUIHandle.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IMGUIHelper.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IncludeIMGUI.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IncludeIrrlicht.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IReferenceCounter.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IrrIMGUI.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IrrIMGUIConfig.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IrrIMGUIConstants.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\IrrIMGUIDebug.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_includes\IrrIMGUI\SIMGUISettings.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CIMGUIHandle.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_source\IrrIMGUI\CIrrlichtIMGUIDriver.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_source\IrrIMGUI\COpenGLIMGUIDriver.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_source\IrrIMGUI\IIMGUIDriver.h" />
+    <ClInclude Include="Include\IrrIMGUI\lib_source\IrrIMGUI\Tools\CBasicMemoryLeakDetection.h" />
+    <ClInclude Include="src\Scripts\CheckPointsScript.h" />
+    <ClInclude Include="src\Scripts\IncludeAllScripts.h" />
+    <ClInclude Include="src\Systems\Scripting.h" />
+    <ClInclude Include="src\Systems\Networking.h" />
+    <ClInclude Include="src\GameObjects\ModelNode.h" />
+    <ClInclude Include="src\Systems\GuiSubSystem.h" />
+    <ClInclude Include="src\GameObjects\Player.h" />
+    <ClInclude Include="src\GameObjects\SoundAgent.h" />
+    <ClInclude Include="src\Systems\SoundSystem.h" />
+    <ClInclude Include="src\Vectors\Smatrix.h" />
+    <ClInclude Include="src\GameObjects\SekRigidBody.h" />
+    <ClInclude Include="src\GameObjects\Camera.h" />
+    <ClInclude Include="src\Systems\Parsing.h" />
+    <ClInclude Include="src\Systems\InputSystem.h" />
+    <ClInclude Include="src\Events\EventPress.h" />
+    <ClInclude Include="src\GameObjects\Gameobject.h" />
+    <ClInclude Include="src\Events\EventHandler.h" />
+    <ClInclude Include="src\Events\Event.h" />
+    <ClInclude Include="src\SekEngine.h" />
+    <ClInclude Include="src\Systems\GraphicsSystem.h" />
+    <ClInclude Include="src\Systems\PhysicsSystem.h" />
+    <ClInclude Include="src\Systems\SubSystem.h" />
+    <ClInclude Include="src\Vectors\Svec.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Default.json" />
+    <None Include="Include\IrrIMGUI\lib_includes\IMGUI\.travis.yml" />
+    <None Include="Include\IrrIMGUI\lib_includes\IMGUI\LICENSE" />
+    <None Include="Include\IrrIMGUI\lib_includes\IMGUI\README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

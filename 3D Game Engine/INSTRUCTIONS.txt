@@ -1,0 +1,25 @@
+Default keys in game:
+WASD - movement
+Mouse1 - firing
+
+Default movement in the edittor:
+
+End switches between level editing adn level testing - runs a simulation
+Enter to apply changes done to the gameObject in level editing
+Saving possible trough L Control + S
+
+arrows - moves the object
+right control - switches up and down with forward and backwards
+,. - switches between left and right gameObject
+F2 - debug toggle, will print out raycasts
+F3 - FPS toggle
+~ - profiling toggle
+N - creates new gameObject
+Space - plays a mono sound
+Page Up & Down - increase / decrease editting step
+
+Game Ending:
+shoot at the target in level 1 - then 
+shoot at the target in level 2 - end
+
+Compiles & runs in Debug-64x

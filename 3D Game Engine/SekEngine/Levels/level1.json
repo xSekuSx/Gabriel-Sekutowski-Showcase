@@ -1,0 +1,530 @@
+{
+      "Number": 9,
+      "Objects": [
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": ""
+                  },
+                  "RigidBody": {
+                        "RigidBody": false
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": true,
+                        "forward": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "listener": false,
+                        "mono": true,
+                        "sound name": "TestOpenAL_sounds_TestSound_Mono.wav"
+                  },
+                  "name": "Sound Emmiter mono",
+                  "position": [
+                        0.0,
+                        0.0,
+                        0.0
+                  ],
+                  "primitive": 1,
+                  "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                  ],
+                  "tag": -1
+            },
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": ""
+                  },
+                  "RigidBody": {
+                        "RigidBody": false
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": false
+                  },
+                  "name": "Game Object 0",
+                  "position": [
+                        0.0,
+                        -15.0,
+                        0.0
+                  ],
+                  "primitive": 0,
+                  "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                  ],
+                  "tag": -1
+            },
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "backpack\\backpac\u0000\u0000\u0000\u0000\u0000",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": ""
+                  },
+                  "RigidBody": {
+                        "RigidBody": false
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": false
+                  },
+                  "name": "Game Object 0",
+                  "position": [
+                        30.0,
+                        -15.0,
+                        0.0
+                  ],
+                  "primitive": -1,
+                  "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                  ],
+                  "tag": -1
+            },
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "backpack\\backpack.obj",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": "backpack\\diffuse.jpg"
+                  },
+                  "RigidBody": {
+                        "RigidBody": false
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": false
+                  },
+                  "name": "Game Object 1",
+                  "position": [
+                        -1.080834150314331,
+                        -4.0,
+                        -2.213165165793952e-15
+                  ],
+                  "primitive": -1,
+                  "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                  ],
+                  "tag": -1
+            },
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": "Default\\defaultTexture.png"
+                  },
+                  "RigidBody": {
+                        "RigidBody": true,
+                        "collider scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "collider shape": 1,
+                        "mass": 1.0,
+                        "transform matrix": [
+                              [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                              ],
+                              [
+                                    0.0,
+                                    1.0,
+                                    0.0
+                              ],
+                              [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                              ]
+                        ],
+                        "transform origin": [
+                              18.0,
+                              32.0,
+                              4.0
+                        ]
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": false
+                  },
+                  "name": "S1",
+                  "position": [
+                        -18.0,
+                        -32.0,
+                        -4.0
+                  ],
+                  "primitive": 1,
+                  "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                  ],
+                  "tag": 3
+            },
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": "Default\\defaultTexture.png"
+                  },
+                  "RigidBody": {
+                        "RigidBody": true,
+                        "collider scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "collider shape": 1,
+                        "mass": 1.0,
+                        "transform matrix": [
+                              [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                              ],
+                              [
+                                    0.0,
+                                    1.0,
+                                    0.0
+                              ],
+                              [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                              ]
+                        ],
+                        "transform origin": [
+                              0.0,
+                              -10.0,
+                              0.0
+                        ]
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": false
+                  },
+                  "name": "S3",
+                  "position": [
+                        0.0,
+                        -10.0,
+                        1.2839283909866269e-14
+                  ],
+                  "primitive": 1,
+                  "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                  ],
+                  "tag": 0
+            },
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": "Default\\defaultTexture.png"
+                  },
+                  "RigidBody": {
+                        "RigidBody": true,
+                        "collider scale": [
+                              0.5,
+                              0.5,
+                              0.5
+                        ],
+                        "collider shape": 1,
+                        "mass": 2.0,
+                        "transform matrix": [
+                              [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                              ],
+                              [
+                                    0.0,
+                                    1.0,
+                                    0.0
+                              ],
+                              [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                              ]
+                        ],
+                        "transform origin": [
+                              24.000001907348633,
+                              33.0,
+                              0.0
+                        ]
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": false
+                  },
+                  "name": "S2",
+                  "position": [
+                        -24.000001907348633,
+                        -33.0,
+                        5.0
+                  ],
+                  "primitive": 1,
+                  "scale": [
+                        0.5,
+                        0.5,
+                        0.5
+                  ],
+                  "tag": 2
+            },
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": "Default\\defaultTexture.png"
+                  },
+                  "RigidBody": {
+                        "RigidBody": true,
+                        "collider scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "collider shape": 2,
+                        "mass": 0.0,
+                        "transform matrix": [
+                              [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                              ],
+                              [
+                                    0.0,
+                                    1.0,
+                                    0.0
+                              ],
+                              [
+                                    0.0,
+                                    0.0,
+                                    1.0
+                              ]
+                        ],
+                        "transform origin": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ]
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": false
+                  },
+                  "name": "Ground",
+                  "position": [
+                        0.0,
+                        -65.0,
+                        0.0
+                  ],
+                  "primitive": 3,
+                  "scale": [
+                        100.00000762939453,
+                        1.0,
+                        100.00000762939453
+                  ],
+                  "tag": -1
+            },
+            {
+                  "ModelNode": {
+                        "ModelNode": true,
+                        "model": "",
+                        "offset": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "rotation": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "scale": [
+                              1.0,
+                              1.0,
+                              1.0
+                        ],
+                        "texture": ""
+                  },
+                  "RigidBody": {
+                        "RigidBody": false
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": false
+                  },
+                  "name": "Game Object",
+                  "position": [
+                        0.0,
+                        9.0,
+                        0.0
+                  ],
+                  "primitive": 1,
+                  "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                  ],
+                  "tag": -1
+            }
+      ],
+      "Player": [
+            {
+                  "ModelNode": {
+                        "ModelNode": false
+                  },
+                  "RigidBody": {
+                        "RigidBody": false
+                  },
+                  "SoundAgent": {
+                        "SoundAgent": true,
+                        "forward": [
+                              0.0,
+                              0.0,
+                              0.0
+                        ],
+                        "listener": false,
+                        "mono": true,
+                        "sound name": "cs16-shotgun.wav"
+                  },
+                  "position": [
+                        -14.575993537902832,
+                        -16.1641845703125,
+                        -11.973179817199707
+                  ],
+                  "primitive": 0,
+                  "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                  ]
+            }
+      ]
+}
