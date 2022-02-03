@@ -1,0 +1,23 @@
+video link:
+https://youtu.be/oQTHu3XIjrI
+
+Report word document is found in the currnet directory
+
+Executable and all cpp/shader files are found in the same "ProceduralGeneration" folder/directory
+
+Executable Movement:
+W- Forward
+S- Backwards
+A- Left
+D- Right
+
+Textures are not done or owned by me, the following are the sites they come from:
+https://naldzgraphics.net/free-seamless-grass-textures/
+http://14textures.com/seamless-gravel-texture/
+https://www.bienenfisch-design.de/wp-content/uploads/2017/11/schnee-textur-001.jpg
+https://www.deviantart.com/hhh316/art/Seamless-Beach-Sand-Texture-271683282
+
+also the skybox I got from:
+https://learnopengl.com/Advanced-OpenGL/Cubemaps
+download link is here:
+https://learnopengl.com/img/textures/skybox.zip

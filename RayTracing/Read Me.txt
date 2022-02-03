@@ -1,0 +1,8 @@
+Hello, You can find the executables in the "RayTracing Executables";
+You can find the source code in the "RayTracing";
+You will find the report in this folder right here;
+
+You can press R and S to change few settings in the .exe aswell as Esc to close it;
+
+Youtube link:
+https://youtu.be/kMwZIqfjUBs
